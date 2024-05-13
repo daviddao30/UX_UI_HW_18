@@ -49,20 +49,6 @@ nav ul {
     margin-bottom: 50px;
 }
 
-footer {
-    display: flex;
-    padding: 25px;
-    text-align: center;
-    align-content: center;
-    justify-content: space-between;
-}
-
-footer ul {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-}
-
 .selectedWork {
     padding: 25px;
 }
@@ -94,6 +80,22 @@ footer ul {
 h3 {
     color: #F68821;
 }
+
+footer {
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+
 
 @media only screen and (max-width: 600px) {
 
