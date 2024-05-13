@@ -46,6 +46,7 @@ nav ul {
     width: 490px;
     margin: 0 auto;
     float: left;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -61,3 +62,51 @@ footer ul {
     vertical-align: top;
     text-align: center;
 }
+
+.selectedWork {
+    padding: 25px;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 500px 500px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 50px;
+    grid-template-areas: 
+    "projectOne projectTwo"
+    "projectThree projectFour"
+    ;
+}
+
+.projects img {
+    width: 500px;
+}
+
+.contact {
+    padding: 25px;
+}
+
+#email {
+    color: #F68821;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #F68821;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .projects {
+        display: grid;
+        grid-template-rows: 500px 500px 500px 500px;
+        grid-template-columns: 1fr;
+        grid-row-gap: 25px;
+        grid-template-areas: 
+        "projectOne"
+        "projectTwo"
+        "projectThree"
+        "projectFour"
+        ;
+    }
+  }
